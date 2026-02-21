@@ -1,0 +1,67 @@
+html, body {
+    background-color: black;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.counter {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    border: none;
+    outline: none;
+    background: transparent;
+    font: inherit;
+    color: inherit;
+    font-size: 5em;
+    text-align: center;
+    width: fit-content;
+}
+
+.probdisplay {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    text-align: center;
+    width: fit-content;
+    user-select: none;
+}
+
+.increment {
+    font-size: 10em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+.incrementamountbox {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    display: flex;
+    font-size: 2em;
+}
+
+.probabilityvaluebox {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    display: flex;
+    font-size: 2em;
+}
+
+.settingsinput {
+    border: none;
+    outline: none;
+    background: transparent;
+    font: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+
