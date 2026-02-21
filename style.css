@@ -45,7 +45,7 @@ html, body {
 .incrementamountbox {
     position: absolute;
     left: 5%;
-    bottom: 15%;
+    bottom: 12%;
     display: flex;
     font-size: 2.5em;
 }

@@ -59,9 +59,6 @@ counter.addEventListener("change", (e)=>{
 
 incrementbutton.addEventListener("click", (e)=>{
     updatecounts(currentcount+increment);
-    if (navigator.vibrate) {
-        navigator.vibrate(30);
-    }
 })
 
 incrementsetting.addEventListener("change", (e)=> {
