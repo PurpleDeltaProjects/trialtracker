@@ -60,7 +60,7 @@ counter.addEventListener("change", (e)=>{
 incrementbutton.addEventListener("click", (e)=>{
     updatecounts(currentcount+increment);
     if (navigator.vibrate) {
-        navigator.vibrate(50);
+        navigator.vibrate(30);
     }
 })
 
