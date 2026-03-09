@@ -61,6 +61,12 @@ incrementbutton.addEventListener("click", (e)=>{
     updatecounts(currentcount+increment);
 })
 
+document.body.addEventListener("keyup", (e)=>{
+    if (e.code === "Space") {
+        updatecounts(currentcount+increment);
+    }
+})
+
 incrementsetting.addEventListener("change", (e)=> {
     if (isNaN(Number(incrementsetting.value))) {
         incrementsetting.value = increment.toString();
